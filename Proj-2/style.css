@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: aliceblue;
+}
+
+#navBar{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 30px;
+}
+
+#nav-1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    cursor: pointer;
+}
+#nav-1>h3{
+    border: 2px solid black;
+    border-radius: 9px;
+    padding: 5px;
+    
+}
+
+#nav-2>h2{
+    text-transform: uppercase;
+    font-size: 45px;
+    cursor: pointer;
+}
+
+#nav-3>button{
+    padding: 8px 5px;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+#main>h1{
+    font-size: 150px;
+    text-transform: uppercase;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+    text-align: center;
+}
+img{
+    height: 400px;
+    width: 300px;
+    object-fit: cover;
+    position: absolute;
+    border-radius: 20px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+#img1{
+    transform: translate(-50%,-50%) rotate(-30deg)
+}
+#img2{
+    transform: translate(-50%,-50%) rotate(-20deg)
+}
+#img3{
+    transform: translate(-50%,-50%) rotate(-10deg)
+}
+
+#footer{
+    position: absolute;
+    bottom: 5% ;
+    left: 2%;
+    font-size: 15px;
+}
+
+#socials{
+    position: absolute;
+    bottom: 5% ;
+    right: 5%;
+    cursor: pointer;
+}
