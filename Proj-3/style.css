@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+    background-color: beige;
+}
+#main{
+    height:100%;
+    width: 100%;
+    padding: 20px;
+    
+}
+#intro{
+    height: 25%;
+    width: 100%;    
+}
+
+#nav{
+    position: fixed;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 30px 40px;
+}
+
+#nav h3{
+    
+    background-color: black; 
+    color: white;
+    border-radius: 10%;
+    margin-left: 10px;
+    padding: 15px 20px;
+    font-size: 20px;
+}
+#intro h1{
+    font-size: 80px;
+    line-height: 65px;
+    letter-spacing: -1px;
+}
+
+#place{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#place h3{
+    margin-top: 5px;
+    font-size: 20px;
+}
+#Profile-pic img{
+    height: 120vh;
+    width: 100%;
+    object-fit: cover;
+}
+
+#about{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+#about h2{
+    width: 70%;
+    height: 80%;
+    font-size: 60px;
+}
+#about-heading{
+    width: 35%;   
+    height: 70%;
+    border-left: 2px solid black;
+    padding-left: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+
+#about-heading h2{
+    font-size: 41px; 
+}
+
+#icons i{
+    font-size: 30px;
+}
+
+#servies{
+    border-top: 2px solid black;
+    width: 100%;
+    height: 45%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#part1{
+    width: 30%;
+    height: 90%;
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 20px;
+    font-size: 30px;
+    border-right: 2px solid #000;
+}
+#part2{
+    width: 70%;
+    height: 100%;
+    /* background-color: blue; */
+}
+
+#part2a{
+    /* background-color: aquamarine; */
+    height: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 20px;
+}
+#part2b{
+    /* background-color: brown; */
+    height: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 20px;
+    border-top: 2px solid #000;
+}
+#DD, #AD, #ID, #MD{
+    padding: 10px 15px;
+    width: 45%;
+    height: 90%;
+    font-size: 20px;
+}
+#DD, #ID{
+    border-right: 2px solid #000;
+}
